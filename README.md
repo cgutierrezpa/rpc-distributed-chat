@@ -29,18 +29,18 @@ java -cp . md5.server.endpoint.MD5Publisher
 ```
 ./server -p <port_number> -s <storage_service_ip>
 ```
-where __port_number__ is the port number in which the Server Service will be running, and __storage_service_ip__ is the IP address of the Storage Service __that is shown in Terminal 2__
+where __port_number__ is the port number in which the Server Service will be running, and __storage_service_ip__ is the IP address of the Storage Service that is shown in __Terminal 2__
 
 * Terminal 4: 
 ```
 java -cp . client -s <messaging_service_ip> -p <port_number> -w <md5_service_ip:md5_service_port>
 ```
-where __messaging_service_ip__ is the IP address of the messaging service that is shown in Terminal 3; __port_number__ is the same port number indicated in the output of Terminal 3; and __md5_service_ip:md5_service_port__ is the IP address and the port number that are shown in Terminal 1, in the format _IP:port_
+where __messaging_service_ip__ is the IP address of the messaging service that is shown in __Terminal 3__; __port_number__ is the same port number indicated in the output of __Terminal 3__; and __md5_service_ip:md5_service_port__ is the IP address and the port number that are shown in __Terminal 1__, in the format _IP:port_
 
 * Terminal 5:
 ```
 ./monitor <storage_service_ip> <client> <message_id>
 ```
-where __storage_service_ip__ is the IP address that is shown in Terminal 2
+where __storage_service_ip__ is the IP address that is shown in __Terminal 2__
 
-Terminal 4 will execute the client and can be replicated as many times as desired to create other clients and communicate between them in real time
+__Terminal 4__ will execute the client and can be replicated as many times as desired to create other clients and communicate between them in real time
