@@ -44,3 +44,7 @@ where __messaging_service_ip__ is the IP address of the messaging service that i
 where __storage_service_ip__ is the IP address that is shown in __Terminal 2__
 
 __Terminal 4__ will execute the client and can be replicated as many times as desired to create other clients and communicate between them in real time
+
+
+
+Further and more detailed explanation of how the application works is provided in the __report.pdf__ file
