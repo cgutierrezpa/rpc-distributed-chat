@@ -1,6 +1,6 @@
 # RPC Distributed Chat System
 
-This project was developed during the _Distributed Systems_ course taken in Universidad Carlos III de Madrid during my Computer Science and Engineering Bachelor's degree. It consists of a distributed chat system that allowed multiple distributed Java clients to be connected by means of an RPC Server coded in C.
+This project was developed during the _Distributed Systems_ course taken in Universidad Carlos III de Madrid during my Computer Science and Engineering Bachelor's degree. It consists of a distributed chat system that allowed multiple distributed Java clients to be connected by means of a Server coded in C that handles the client-server connections using RPCs.
 
 ## Instructions
 
